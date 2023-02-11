@@ -16,32 +16,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile Picture" translatesAutoresizingMaskIntoConstraints="NO" id="Bra-rg-TPT">
-                    <rect key="frame" x="16" y="59" width="160" height="160"/>
+                    <rect key="frame" x="16" y="89" width="160" height="160"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="160" id="Caz-zU-T41"/>
                         <constraint firstAttribute="height" constant="160" id="RU1-Bl-G40"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvD-Kk-B1R">
-                    <rect key="frame" x="181" y="59" width="34" height="21"/>
+                    <rect key="frame" x="181" y="89" width="34" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата рождения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgz-nm-SVj">
-                    <rect key="frame" x="181" y="128.66666666666666" width="123" height="21"/>
+                    <rect key="frame" x="181" y="158.66666666666666" width="123" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Город" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chf-Wf-vRh">
-                    <rect key="frame" x="181" y="198" width="48" height="21"/>
+                    <rect key="frame" x="181" y="228" width="48" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OGT-Li-X6c">
-                    <rect key="frame" x="25" y="221" width="343" height="228"/>
+                    <rect key="frame" x="25" y="271" width="343" height="228"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="228" id="Zno-mB-EAA"/>
@@ -57,9 +57,9 @@
             <constraints>
                 <constraint firstItem="sgz-nm-SVj" firstAttribute="centerY" secondItem="Bra-rg-TPT" secondAttribute="centerY" id="2BE-qH-ApS"/>
                 <constraint firstItem="JvD-Kk-B1R" firstAttribute="leading" secondItem="Bra-rg-TPT" secondAttribute="leading" constant="165" id="7wh-QG-XzR"/>
-                <constraint firstItem="Bra-rg-TPT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="98v-Bt-4m0"/>
+                <constraint firstItem="Bra-rg-TPT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="98v-Bt-4m0"/>
                 <constraint firstItem="Chf-Wf-vRh" firstAttribute="bottom" secondItem="Bra-rg-TPT" secondAttribute="bottom" id="BZN-j5-E4l"/>
-                <constraint firstItem="OGT-Li-X6c" firstAttribute="bottom" secondItem="Bra-rg-TPT" secondAttribute="bottom" constant="230" id="KJS-dm-DYm"/>
+                <constraint firstItem="OGT-Li-X6c" firstAttribute="bottom" secondItem="Bra-rg-TPT" secondAttribute="bottom" constant="250" id="KJS-dm-DYm"/>
                 <constraint firstItem="sgz-nm-SVj" firstAttribute="leading" secondItem="Bra-rg-TPT" secondAttribute="leading" constant="165" id="WOZ-Pz-f1V"/>
                 <constraint firstItem="Bra-rg-TPT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="bRc-Lf-6nY"/>
                 <constraint firstItem="JvD-Kk-B1R" firstAttribute="top" secondItem="Bra-rg-TPT" secondAttribute="top" id="blJ-kQ-xBj"/>
